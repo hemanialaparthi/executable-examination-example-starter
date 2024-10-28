@@ -51,7 +51,7 @@ def find_minimum_value(matrix):
     # confirm that there is a value in the [0][0] position
     if not matrix or not matrix[0]:
         return ""
-    minimum_value = matrix[0][0]
+    mlue = matrix[0][0]
     for row in matrix:
         for value in row:
             if value > minimum_value:
