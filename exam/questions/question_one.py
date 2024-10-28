@@ -56,7 +56,7 @@ def find_minimum_value(matrix):
         for value in row:
             if value > minimum_value:
                 minimum_value = value
-    return minimum_value
+    return minimuvalue
 
 
 # }}}
